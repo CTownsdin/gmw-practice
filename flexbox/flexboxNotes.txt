@@ -1,0 +1,51 @@
+https://flexboxfroggy.com/
+
+flex-direction
+  row
+  row-reverse
+  column
+  column-reverse
+
+justify-content  (horizonal normally)
+  flex-start
+  flex-end
+  center
+  space-between
+  space-around
+
+align-items  (vertical normally)
+  flex-start
+  flex-end
+  center
+  baseline
+  stretch
+
+
+use order to take out of the natural order.
+  positive or negative integer.
+  default order is 0
+
+align-self
+// on off aligns a particular item.
+// same as align items, but for self, 1
+  flex-start
+  flex-end
+  center
+  baseline
+  stretch
+
+flex-wrap
+  nowrap
+  wrap
+  wrap-reverse
+
+align-content
+// set how multiple lines are spaced out.
+  flex-start
+  flex-end
+  center
+  space-between
+  space-around
+  stretch
+
+
