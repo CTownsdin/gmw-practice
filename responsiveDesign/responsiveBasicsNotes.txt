@@ -1,0 +1,37 @@
+html
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+use relative widths
+width: 100%  (not 344px)
+
+media queries
+min-width, max-width, min-height, max-height
+orientation=portrait, orientation=landscape
+
+<link rel="stylesheet" media="(max-width: 640px)" href="max-640px.css">
+<link rel="stylesheet" media="(min-width: 640px)" href="min-640px.css">
+<link rel="stylesheet" media="(orientation: portrait)" href="portrait.css">
+<link rel="stylesheet" media="(orientation: landscape)" href="landscape.css">
+<style>
+  @media (min-width: 500px) and (max-width: 600px) {
+    h1 {
+      color: fuchsia;
+    }
+
+    .desc:after {
+      content:" In fact, it's between 500px and 600px wide.";
+    }
+  }
+</style>
+
+
+set full width on the top level div, and it will fit on all phones
+div.fullWidth {
+  width: 100%
+}
+
+
+design for the smallest device first, then add more as you go up in size.
+text should be 70-80 characters wide.
+
+
