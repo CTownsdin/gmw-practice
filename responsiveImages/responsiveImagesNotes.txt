@@ -1,0 +1,33 @@
+compression levels
+hover over the image element in elements to see natural width and height
+
+max-width: 100%
+// is a good start to a responsive image, that won't grow pixelated.
+
+2 images, side by side, with 10px middle margin
+set width thusly
+img {
+  margin-right: 10px; // right image no margin of course
+  max-width: 426px; // natural width
+  width: calc((100% - 10px) / 2)
+}
+
+img:last-of-type {
+  margin-right: 0;
+}
+
+//setup an image to responsively fit within contraints
+img {
+  width: 100vmin;
+  height: 100vmin;
+}
+
+// cover entire viewport
+img {
+  width: 100vmax;
+  height: 100vmax;
+}
+
+can use pageSpeedInsights to check for things you can compress, images, JS minification, etc
+but Lighthouse is the better overall performance guide/test.
+
