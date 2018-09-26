@@ -1,0 +1,6 @@
+with the adoption of html5, we now have native video and audio
+support.
+
+<video>  <audio>
+
+for video subtitles, use a VTT file.
